@@ -118,7 +118,10 @@ public class PrikazJez implements IPrikaz
                 mediaPlayer.play();
                 return "Boruvky te zachranila.";
             }
+<<<<<<< HEAD
             plan.getBatoh().odeberVec("boruvky");
+=======
+>>>>>>> a9dea212812a5684ebc1499921be7d6c4ce2ae5c
             plan.notifyAllObservers();
             mediaPlayer.play();
             return "Posilnila ses boruvkama.";

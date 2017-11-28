@@ -2,11 +2,15 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/C:/Users/Hed94/Desktop/XXXX/Adventura/src/main/Main.java</file>
             <file>file:/C:/Users/Hed94/Desktop/XXXX/Adventura/src/logika/PrikazJez.java</file>
             <file>file:/C:/Users/Hed94/Desktop/XXXX/Adventura/src/logika/Batoh.java</file>
             <file>file:/C:/Users/Hed94/Desktop/XXXX/Adventura/src/logika/PrikazOdpovidat.java</file>
         </group>
+=======
+        <group/>
+>>>>>>> a9dea212812a5684ebc1499921be7d6c4ce2ae5c
     </open-files>
 </project-private>

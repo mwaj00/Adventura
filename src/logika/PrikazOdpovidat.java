@@ -40,6 +40,7 @@ public class PrikazOdpovidat implements IPrikaz
                 return "Nemuzes odpovedet. Zemrela jsi na otravu jablkem. - KONEC HRY";
             }
             
+<<<<<<< HEAD
             if(plan.getAktualniProstor().getNazev().equals("hriste")) 
             { 
                     if(plan.getPokus()>=2)
@@ -58,6 +59,20 @@ public class PrikazOdpovidat implements IPrikaz
                             plan.spatnaOdpoved();
                             return "Spatna odpoved, muzes hadat jeste " + (2 - plan.getPokus()) + "krat";
                     }
+=======
+            if(plan.getAktualniProstor().getNazev().equals("hriste")) { 
+                if((parametry[0].equals("jmeno") || parametry[0].equals("jméno")) 
+                && plan.getPokus() < 3)
+                {
+                    hra.setKonecHry(true);                    
+                    return "Spravne! Tvuj bratr si hraje na hříště v pisku, za velkym stromem.";
+                }
+                else 
+                { 
+                    plan.spatnaOdpoved();
+                    return "Spatna odpoved, muzes hadat jeste " + (3- plan.getPokus()) + "krat";
+                }
+>>>>>>> a9dea212812a5684ebc1499921be7d6c4ce2ae5c
             }
             else 
             {

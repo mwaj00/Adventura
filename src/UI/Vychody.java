@@ -37,7 +37,10 @@ public class Vychody implements Observer
      *
      * @param plan herní plán
      */
+<<<<<<< HEAD
     
+=======
+>>>>>>> a9dea212812a5684ebc1499921be7d6c4ce2ae5c
     public Vychody(HerniPlan plan, TextArea text,TextField field)
       {
         this.plan = plan;
@@ -52,7 +55,10 @@ public class Vychody implements Observer
     /**
      * Metoda pro inicializaci komponent panelu.
      */
+<<<<<<< HEAD
     
+=======
+>>>>>>> a9dea212812a5684ebc1499921be7d6c4ce2ae5c
     private void init()
       {
         list = new ListView<>();

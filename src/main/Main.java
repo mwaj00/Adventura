@@ -132,7 +132,11 @@ public class Main extends Application {
         borderPane.setTop(menu);
         
 
+<<<<<<< HEAD
         Scene scene = new Scene(borderPane, 1200, 870);
+=======
+        Scene scene = new Scene(borderPane, 1200, 650);
+>>>>>>> a9dea212812a5684ebc1499921be7d6c4ce2ae5c
 
         primaryStage.setTitle("Moje adventura");
         primaryStage.setScene(scene);

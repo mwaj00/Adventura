@@ -45,11 +45,18 @@ public class PanelBatohu implements Observer{
         init();
     }
 
+<<<<<<< HEAD
+=======
+    
+>>>>>>> a9dea212812a5684ebc1499921be7d6c4ce2ae5c
       /**
      * Nastavení pro kliknutí myší 
      * 
      */
+<<<<<<< HEAD
     
+=======
+>>>>>>> a9dea212812a5684ebc1499921be7d6c4ce2ae5c
     private void init() {
         list = new ListView<>();
         data = FXCollections.observableArrayList();
