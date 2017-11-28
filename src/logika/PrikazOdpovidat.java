@@ -41,10 +41,13 @@ public class PrikazOdpovidat implements IPrikaz
             
             if(plan.getAktualniProstor().getNazev().equals("hriste")) { 
                 if((parametry[0].equals("jmeno") || parametry[0].equals("jméno")) 
-                && plan.getPokus() < 3){
+                && plan.getPokus() < 3)
+                {
                     hra.setKonecHry(true);                    
-                    return "Spravne! Tvuj bratr hraje v pisku za velkym tresnem.";
-                } else { 
+                    return "Spravne! Tvuj bratr si hraje na hříště v pisku, za velkym stromem.";
+                }
+                else 
+                { 
                     plan.spatnaOdpoved();
                     return "Spatna odpoved, muzes hadat jeste " + (3- plan.getPokus()) + "krat";
                 }
