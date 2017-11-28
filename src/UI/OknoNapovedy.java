@@ -15,7 +15,7 @@ import static org.omg.CORBA.ORB.init;
 
 /**
  *
- * @author Julietta
+ * @author Julietta Mwansová
  */
 public class OknoNapovedy {
     
@@ -31,6 +31,10 @@ public class OknoNapovedy {
         init();
 
     }
+     
+     /**
+     * Metoda pro inicializaci komponent Okna.
+     */
      
      private void init() {
         oknoNapovedyDialog = new JDialog();
